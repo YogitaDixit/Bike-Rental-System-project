@@ -1,0 +1,540 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 100px;
+    margin-right: 10px;
+    padding-left: 20px;
+    width: 150px;
+}
+
+.navbar .logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #ff3204;
+}
+.search-bar {
+    padding: 7px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.search-btn {
+    padding: 7px 15px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #ff451a;
+}
+
+.btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ff451a;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background-color: #4b4b4b;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+
+.cta-btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background-color: #ff451a;
+}
+/* Bike Cards Section */
+.bike-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.bike-section h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.bike-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bike-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.bike-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.bike-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.bike-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.bike-card:hover {
+    transform: scale(1.05);
+}
+
+.bike-card p.price {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add this CSS to your existing styles.css */
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #ff5733; /* Highlight color */
+    outline: none;
+}
+
+
+
+
+/* Detailed Bike Specs Section */
+.detailed-bike-section {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.detailed-bike-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.detailed-bike-image img {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.detailed-bike-info {
+    max-width: 600px;
+}
+
+.detailed-bike-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.detailed-bike-info p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ff5733;
+}
+
+.detailed-bike-info h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.detailed-bike-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+.detailed-bike-info ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Detailed Bike Specs Section Styling */
+.detailed-bike-section {
+    padding: 40px 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Default background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Each section will have a unique background and styling */
+#classic350 {
+    background-color: #e0f7fa; /* Light teal for Classic 350 */
+}
+#honda {
+    background-color: #e0f7fa; /* Light teal for Classic 350 */
+}
+#jawa {
+    background-color: #e0f7fa; /* Light teal for Classic 350 */
+}
+#avenger {
+    background-color: #e0f7fa; /* Light teal for Classic 350 */
+}
+
+#yamaha {
+    background-color: #fce4ec; /* Light pink for Pulsar 150 */
+}
+#gixxer {
+    background-color: #fce4ec; /* Light pink for Pulsar 150 */
+}
+#pulsar-150 {
+    background-color: #fce4ec; /* Light pink for Pulsar 150 */
+}
+#duke {
+    background-color: #fce4ec; /* Light pink for Pulsar 150 */
+}
+
+#scooters {
+    background-color: #e8f5e9; /* Light green for Yamaha FZ v3 */
+}
+#duet {
+    background-color: #e8f5e9; /* Light green for Yamaha FZ v3 */
+}
+#jupiter {
+    background-color: #e8f5e9; /* Light green for Yamaha FZ v3 */
+}
+#maestro {
+    background-color: #e8f5e9; /* Light green for Yamaha FZ v3 */
+}
+
+#mopeds {
+    background-color: lavender; /* Light purple for GT650 */
+}
+#chetak {
+    background-color: lavender; /* Light purple for GT650 */
+}
+
+#gt-650 {
+    background-color: #fff3e0; /* Light orange for GT650 */
+}
+
+/* Detailed bike container to structure the image and info */
+.detailed-bike-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Bike image styling */
+.detailed-bike-image img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+/* Detailed bike info */
+.detailed-bike-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.detailed-bike-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ff5733; /* Price color */
+}
+
+.detailed-bike-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.detailed-bike-info ul li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd; /* Add a divider for each spec */
+}
+
+/* Adding some hover effects for the sections */
+.detailed-bike-section:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+/* Add to Cart Button Styling */
+.add-to-cart {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.add-to-cart:hover {
+    background-color: #ff451a;
+}
+
+
+
+
+.cart-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items-container {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item h3 {
+    margin: 0;
+}
+
+.cart-item button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #ff451a;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-summary h2 {
+    margin: 0;
+}
+
+/* Container for the bookings list */
+.bookings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Individual booking card styling */
+.booking-item {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.booking-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Booking title and details */
+.booking-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.booking-item p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Cancel button styling */
+.cancel-booking {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.cancel-booking:hover {
+    background-color: #c0392b;
+}

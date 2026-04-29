@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - BikesPoint</title>
+    <link rel="stylesheet" href="/css/signin.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/logo1.svg" alt="BikesPoint Logo">
+            
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Bookings</a></li>
+            <li><a href="sign-up.html" class="btn sign-up">Sign Up</a></li>
+            <li><a href="#" class="btn sign-in">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sign In Form -->
+    <div class="container">
+        <h2>Sign In to BikesPoint</h2>
+        <form id="signin-form">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Sign In</button>
+        </form>
+        <p>Don't have an account? <a href="sign-up.html">Sign Up</a></p>
+    </div>
+    
+    <script src="/js/signin.js"></script>
+  
+</body>
+</html>

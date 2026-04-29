@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikesPoint | Bikes Rental</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/logo1.svg" alt="BikesPoint Logo">
+            
+        </div>
+        <ul class="nav-links">
+            <div class="dropdown">
+                <a class=" btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+              
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#classic350">Cruiser Bike </a></li>
+                    <li><a class="dropdown-item" href="#yamaha">Sports Bike </a></li>
+                    <li><a class="dropdown-item" href="#scooters">Scooters</a></li>
+                    <li><a class="dropdown-item" href="#mopeds">Mopeds</a></li>
+                    <li><a class="dropdown-item" href="#gt-650">Premium Bikes</a></li>
+                </ul>
+              </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="bookings.html">Bookings</a></li>
+            <li><a href="bookings.html">Account</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/GT650.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="images/BulletClassic.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="images/YamahaFZ.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="hero-content">
+            <h1>Welcome to BikesPoint</h1>
+            <p>Your one-stop destination for bikes!</p>
+          
+        </div>
+        </section>
+      
+      <!-- Bike Cards Section
+        <section class="bike-section">
+            <h2>Available Bikes</h2>
+            <div class="bike-cards-container">
+                <a href="#classic350">
+                <div class="bike-card">
+                    <img src="/images/BulletClassic.png" alt="Bike 1">
+                    <h3>Royal Enfield Classic 350</h3>
+                    <p>Price: ₹ 2000 per day</p>
+                    <p>Specifications: 349cc, 20.2 BHP, 5-speed transmission</p>
+                </div>
+                </a>
+                <a href="#pulsar-150">
+                <div class="bike-card">
+                    <img src="/images/pulsar150.webp" alt="Bike 2">
+                    <h3>Bajaj Pulsar 150</h3>
+                    <p>Price: ₹ 1000 per day</p>
+                    <p>Specifications: 149cc, 14 BHP, 5-speed transmission</p>
+                </div>
+            </a>
+              <a href="#yamaha-fz">
+                <div class="bike-card">
+                    <img src="/images/YamahaFZ.png" alt="Bike 3">
+                    <h3>Yamaha FZ V3</h3>
+                    <p>Price: ₹ 1500 per day</p>
+                    <p>Specifications: 149cc, 12.4 BHP, 5-speed transmission</p>
+                </div>
+            </a>
+            <a href="#gt-650">
+                <div class="bike-card">
+                    <img src="/images/GT650.avif" alt="Bike 4">
+                    <h3>ContenentalGT 650</h3>
+                    <p>Price: ₹ 3000 per day</p>
+                    <p>Specifications: 648cc, 34.9 kW @ 7250 rpm, 6-speed transmission</p>
+                </div>
+            </a>
+                 Add more bike cards as needed 
+            </div>
+        </section>-->
+
+        <section class="bike-section">
+            <h2>Available Bikes</h2>
+            <div class="bike-cards-container">
+                <a href="#classic350">
+                <div class="bike-card">
+                    <img src="/images/BulletClassic.png" alt="Bike 1">
+                    <h3>Royal Enfield Classic 350</h3>
+                    <p>Price: ₹ 2000 per day</p>
+                    
+                </div>
+                </a>
+                <a href="#honda">
+                    <div class="bike-card">
+                        <img src="/images/honda2.png" alt="Bike 1">
+                        <h3>Honda H'ness CB350</h3>
+                        <p>Price: ₹ 2000 per day</p>
+                        
+                    </div>
+                    </a>
+                    <a href="#jawa">
+                        <div class="bike-card">
+                            <img src="/images/jawa2.png" alt="Bike 1">
+                            <h3>Jawa 42 Bobber</h3>
+                            <p>Price: ₹ 2000 per day</p>
+                            
+                        </div>
+                        </a>
+                        <a href="#avenger">
+                            <div class="bike-card">
+                                <img src="/images/avenger2.png" alt="Bike 1">
+                                <h3>Bajaj Avenger Street 160</h3>
+                                <p>Price: ₹ 2000 per day</p>
+                                
+                            </div>
+                            </a>
+                <a href="#yamaha">
+                <div class="bike-card">
+                    <img src="/images/YamahaFZ.png" alt="Bike 2">
+                    <h3>Yamaha FZ V3</h3>
+                    <p>Price: ₹ 1500 per day</p>
+                    
+                </div>
+            </a>
+              <a href="#gixxer">
+                <div class="bike-card">
+                    <img src="/images/gixxer2.png" alt="Bike 3">
+                    <h3>Suzuki Gixxer SF</h3>
+                    <p>Price: ₹ 1500 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#pulsar-150">
+                <div class="bike-card">
+                    <img src="/images/pulsar150.webp" alt="Bike 3">
+                    <h3>Bajaj Pulsar 150</h3>
+                    <p>Price: ₹ 1500 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#duke">
+                <div class="bike-card">
+                    <img src="/images/duke2.png" alt="Bike 3">
+                    <h3>KTM 200 DUKE</h3>
+                    <p>Price: ₹ 1500 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#scooters">
+                <div class="bike-card">
+                    <img src="/images/activa 6g.png" alt="Bike 3">
+                    <h3>Honda Activa 6G</h3>
+                    <p>Price: ₹ 800 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#duet">
+                <div class="bike-card">
+                    <img src="/images/duett2.png" alt="Bike 3">
+                    <h3>Hero Duet</h3>
+                    <p>Price: ₹ 800 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#jupiter">
+                <div class="bike-card">
+                    <img src="/images/jupiter2.png" alt="Bike 3">
+                    <h3>TVS Jupiter</h3>
+                    <p>Price: ₹ 800 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#maestro">
+                <div class="bike-card">
+                    <img src="/images/maestro2.png" alt="Bike 3">
+                    <h3>Hero Maestro</h3>
+                    <p>Price: ₹ 800 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#mopeds">
+                <div class="bike-card">
+                    <img src="/images/ola2.png" alt="Bike 3">
+                    <h3>Ola S1 Pro</h3>
+                    <p>Price: ₹ 1000 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#chetak">
+                <div class="bike-card">
+                    <img src="/images/chetak2.png" alt="Bike 3">
+                    <h3> Bajaj Chetak 3501</h3>
+                    <p>Price: ₹ 1000 per day</p>
+                    
+                </div>
+            </a>
+            <a href="#gt-650">
+                <div class="bike-card">
+                    <img src="/images/GT650.avif" alt="Bike 4">
+                    <h3>ContenentalGT 650</h3>
+                    <p>Price: ₹ 3000 per day</p>
+                    
+                </div>
+            </a>
+                <!-- Add more bike cards as needed -->
+            </div>
+        </section>
+<!-- Detailed Bike Specs Section -->
+<section id="classic350" class="detailed-bike-section">
+    <div class="detailed-bike-container">
+        <div class="detailed-bike-image">
+            <img src="/images/BulletClassic.png" alt="Royal Enfield Classic 350">
+        </div>
+        <div class="detailed-bike-info">
+            <h2>Royal Enfield Classic 350</h2>
+            <p>Price: ₹ 2000 per day</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Engine: 349cc, Single Cylinder, Air-cooled</li>
+                <li>Power: 20.2 BHP @ 6100 rpm</li>
+                <li>Torque: 27 Nm @ 4000 rpm</li>
+                <li>Transmission: 5-speed</li>
+                <li>Fuel Tank Capacity: 13 liters</li>
+            </ul>
+            <!-- Add this button inside each detailed bike section -->
+      <!-- Time input in the detailed bike section -->
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" required>
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" required>
+      <button class="cta-btn add-to-cart" data-bike-name="Royal Enfield Classic 350" data-bike-price="2000">Book Now</button>
+
+        </div>
+    </div>
+</section>
+<section id="honda" class="detailed-bike-section">
+    <div class="detailed-bike-container">
+        <div class="detailed-bike-image">
+            <img src="/images/honda2.png" alt="Honda H'ness CB350">
+        </div>
+        <div class="detailed-bike-info">
+            <h2>Honda H'ness CB350</h2>
+            <p>Price: ₹ 2000 per day</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Engine: 4 Stroke, SI Engine Displacement348.36 cc</li>
+                <li>Power: 21.07 PS @ 5500 rpm</li>
+                <li>Torque: 30 Nm @ 3000 rpm</li>
+                <li>Transmission: Manual</li>
+                <li>Fuel Tank Capacity: 15 liters</li>
+            </ul>
+            <!-- Add this button inside each detailed bike section -->
+      <!-- Time input in the detailed bike section -->
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" required>
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" required>
+      <button class="cta-btn add-to-cart" data-bike-name="Honda H'ness CB350" data-bike-price="2000">Book Now</button>
+
+        </div>
+    </div>
+</section>
+<section id="jawa" class="detailed-bike-section">
+    <div class="detailed-bike-container">
+        <div class="detailed-bike-image">
+            <img src="/images/jawa2.png" alt="Jawa 42 Bobber">
+        </div>
+        <div class="detailed-bike-info">
+            <h2>Jawa 42 Bobber</h2>
+            <p>Price: ₹ 2000 per day</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Engine: Single Cylinder, 4 Stroke, Liquid Cooled, DOHC</li>
+                <li>Power: 29.92 PS</li>
+                <li>Torque: 32.74 Nm</li>
+                <li>Transmission: Manual</li>
+                <li>Fuel Tank Capacity: 12.5 liters</li>
+            </ul>
+            <!-- Add this button inside each detailed bike section -->
+      <!-- Time input in the detailed bike section -->
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" required>
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" required>
+      <button class="cta-btn add-to-cart" data-bike-name="Jawa 42 Bobber" data-bike-price="2000">Book Now</button>
+
+        </div>
+    </div>
+</section>
+<section id="avenger" class="detailed-bike-section">
+    <div class="detailed-bike-container">
+        <div class="detailed-bike-image">
+            <img src="/images/avenger2.png" alt="avenger">
+        </div>
+        <div class="detailed-bike-info">
+            <h2>Bajaj Avenger Street 160</h2>
+            <p>Price: ₹ 2000 per day</p>
+            <h3>Specifications:</h3>
+            <ul>
+                <li>Engine: 160 cc, Single cylinder, Twin Spark DTS-i , 4 stroke, SOHC, 2 valve, Air cooled</li>
+                <li>Power: 11.03 kW (15 PS) @ 8500 rpm</li>
+                <li>Torque: 13.7 Nm @ 7000 rpm</li>
+                <li>Transmission: Manual</li>
+                <li>Fuel Tank Capacity: 13 liters</li>
+            </ul>
+            <!-- Add this button inside each detailed bike section -->
+      <!-- Time input in the detailed bike section -->
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" required>
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" required>
+      <button class="cta-btn add-to-cart" data-bike-name="Bajaj Avenger Street 160" data-bike-price="2000">Book Now</button>
+
+        </div>
+    </div>
+</section>
+<!-- Detailed Bike Specs Section for Pulsar 150 -->
+<section id="yamaha" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/YamahaFZ.png" alt="Yamaha">
+</div>
+<div class="detailed-bike-info">
+    <h2>Yamaha FZ v3</h2>
+    <p>Price: ₹ 1500 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: 149cc, Single Cylinder, Air-cooled</li>
+        <li>Power: 12.4 BHP @ 7250 rpm</li>
+        <li>Torque: 13.3 Nm @ 5500 rpm</li>
+        <li>Transmission: 5-speed</li>
+        <li>Fuel Tank Capacity: 12.8 liters</li>
+        <li>Seat Height: 790 mm</li>
+        <li>Weight: 135 kg</li>
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Yamaha FZ v3" data-bike-price="1500">Book Now</button>
+
+</div>
+</div>
+</section>
+<section id="gixxer" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/gixxer2.png" alt="gixxer">
+</div>
+<div class="detailed-bike-info">
+    <h2>Suzuki Gixxer SF</h2>
+    <p>Price: ₹ 1500 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: 4-Cycle, 1-Cylinder, Air Cooled Displacement155 cc</li>
+        <li>Power: 13.6 PS @ 8000 rpm</li>
+        <li>Torque: 13.8 Nm @ 6000 rpm</li>
+        <li>Transmission: Manual</li>
+        <li>Fuel Tank Capacity: 12 liters</li>
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Suzuki Gixxer SF" data-bike-price="1500">Book Now</button>
+
+</div>
+</div>
+</section>
+<section id="pulsar-150" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/pulsar150.webp" alt="Bajaj Pulsar 150">
+</div>
+<div class="detailed-bike-info">
+    <h2>Bajaj Pulsar 150</h2>
+    <p>Price: ₹ 1500 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: 149.5cc, Single Cylinder, Air-cooled</li>
+        <li>Power: 14 BHP @ 8500 rpm</li>
+        <li>Torque: 13.25 Nm @ 6500 rpm</li>
+        <li>Transmission: 5-speed</li>
+        <li>Fuel Tank Capacity: 15 liters</li>
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Bajaj Pulsar 150" data-bike-price="1500">Book Now</button>
+
+</div>
+</div>
+</section>
+
+
+<!-- Detailed Bike Specs Section for Yamaha FZ v3 -->
+<section id="duke" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/duke2.png" alt="Duke">
+</div>
+<div class="detailed-bike-info">
+    <h2>KTM 200 DUKE</h2>
+    <p>Price: ₹ 1500 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: Single Cylinder, Liquid Cooled, DOHC, FI Engine, 199.5 cc</li>
+        <li>Power: 25 PS @ 10000 rpm</li>
+        <li>Torque: 19.3 Nm @ 8000 rpm</li>
+        <li>Transmission: 5-speed</li>
+        <li>Fuel Tank Capacity: 13.4 litres</li>
+        <li>Transmission: 6 Speed Manual</li>
+        
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="KTM 200 DUKE" data-bike-price="1500">Book Now</button>
+
+</div>
+</div>
+</section>
+<section id="scooters" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/activa 6g.png" alt="activa 6g">
+</div>
+<div class="detailed-bike-info">
+    <h2>Honda Activa 6G</h2>
+    <p>Price: ₹ 800 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: 4 Stroke, SI Engine Displacement109.51 cc</li>
+        <li>Power: 7.84 PS @ 8000 rpm</li>
+        <li>Torque: 8.90 Nm @ 5500 rpm</li>
+        <li>Transmission: Automatic</li>
+        <li>Fuel Tank Capacity: 5.3 liters</li>
+
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Honda Activa 6G" data-bike-price="800">Book Now</button>
+
+</div>
+</div>
+</section>
+<section id="duet" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/duett2.png" alt="duet">
+</div>
+<div class="detailed-bike-info">
+    <h2>Hero Duet</h2>
+    <p>Price: ₹ 800 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: Air-Cooled, 4-Stroke Single Cylinder OHC Displacement110.9 cc</li>
+        <li>Power: 8.31 bhp @ 8000 rpm</li>
+        <li>Torque: 8.30 Nm @ 6500 rpm</li>
+        <li>Transmission: Automatic</li>
+        <li>Fuel Tank Capacity: 5.5 liters</li>
+        
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Hero Duet" data-bike-price="800">Book Now</button>
+
+</div>
+</div>
+</section>
+<section id="jupiter" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/jupiter2.png" alt="jupiter">
+</div>
+<div class="detailed-bike-info">
+    <h2>TVS Jupiter</h2>
+    <p>Price: ₹ 800 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: Single Cylinder, 4 Stroke, CVTI, Fuel Injection Displacement113.3 cc</li>
+        <li>Power: 12.4 BHP @ 7250 rpm</li>
+        <li>Torque: 9.8 Nm @ 5500 rpm</li>
+        <li>Transmission: Automatic</li>
+        <li>Fuel Tank Capacity: 5.1 liters</li>
+        
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="TVS Jupiter" data-bike-price="800">Book Now</button>
+
+</div>
+</div>
+</section>
+<section id="maestro" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/maestro2.png" alt="maestro">
+</div>
+<div class="detailed-bike-info">
+    <h2>Hero Maestro</h2>
+    <p>Price: ₹ 800 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: Air Cooled, 4 - Stroke Single Cylinder OHC Displacement109 cc</li>
+        <li>Power: 8.05 bhp @ 7500 rpm</li>
+        <li>Torque: 9.10 Nm @ 5500 rpm</li>
+        <li>Transmission: Automatic</li>
+        <li>Fuel Tank Capacity: 5.3 liters</li>
+        
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Hero Maestro" data-bike-price="800">Book Now</button>
+
+</div>
+</div>
+</section>
+
+<section id="mopeds" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/ola2.png" alt="ola">
+</div>
+<div class="detailed-bike-info">
+    <h2>Ola S1 Pro</h2>
+    <p>Price: ₹ 1000 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Motor Power: 5.5 kW</li>
+        <li>No. Of Batteries: 1</li>
+        <li>Charger Output: 350 W</li>
+        <li>Transmission: Automatic</li>
+        <li>Top Speed: 117 km/Hr</li>
+        <li>Battery Capacity: 3 Kwh</li>
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Ola S1 Pro" data-bike-price="1000">Book Now</button>
+
+</div>
+</div>
+</section>
+<section id="chetak" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/chetak2.png" alt="chetak">
+</div>
+<div class="detailed-bike-info">
+    <h2>Bajaj Chetak 3501</h2>
+    <p>Price: ₹ 1000 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>No. Of Batteries: 1</li>
+        <li>Top Speed: 73 km/Hr</li>
+        <li>Charger Output: 950 W</li>
+        <li>Battery Capacity: 3.5 Kwh</li>
+        <li>Transmission: Automatic</li>
+        
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="Bajaj Chetak 3501" data-bike-price="1000">Book Now</button>
+
+</div>
+</div>
+</section>
+
+
+
+<!-- Detailed Bike Specs Section for GT650 -->
+<section id="gt-650" class="detailed-bike-section">
+<div class="detailed-bike-container">
+<div class="detailed-bike-image">
+    <img src="/images/GT650.avif" alt="GT 650">
+</div>
+<div class="detailed-bike-info">
+    <h2>Royal Enfield Continental GT 650</h2>
+    <p>Price: ₹ 3000 per day</p>
+    <h3>Specifications:</h3>
+    <ul>
+        <li>Engine: 648cc, Parallel Twin, Air/Oil cooled</li>
+        <li>Power: 47 BHP @ 7150 rpm</li>
+        <li>Torque: 52 Nm @ 5250 rpm</li>
+        <li>Transmission: 6-speed</li>
+        <li>Fuel Tank Capacity: 12.5 liters</li>
+       
+    </ul>
+    <!-- Add this button inside each detailed bike section -->
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+<button class="cta-btn add-to-cart" data-bike-name="ContenentalGT 650" data-bike-price="3000">Book Now</button>
+
+</div>
+</div>
+</section>
+
+        
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<script>
+ document.querySelectorAll('.add-to-cart').forEach((button) => {
+    button.addEventListener('click', async () => {
+        const bikeName = button.getAttribute('data-bike-name');
+        const price = button.getAttribute('data-bike-price');
+
+        const bikeElement = button.closest('.bike');
+
+        const startDate = bikeElement.querySelector('.start-date').value;
+        const endDate = bikeElement.querySelector('.end-date').value;
+      
+       
+
+        
+
+     
+        
+
+        
+
+        const bookingData = {
+              // Send user email instead of userId
+            bikeName,
+            price,
+            startDate,
+            endDate
+        };
+
+
+
+        try {
+            const response = await fetch('/api/bookings', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(bookingData)
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                alert('Booking successful');
+            } else {
+                alert('Booking failed');
+            }
+        } catch (error) {
+            console.error('Error booking bike:', error);
+            alert('An error occurred while booking the bike.');
+        }
+    });
+});
+
+
+
+</script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BikesPoint. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
